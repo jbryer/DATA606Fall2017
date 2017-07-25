@@ -1,17 +1,10 @@
 [
 {
-	"uri": "/content-organisation/logo/",
-	"title": "Logo placeholder",
-	"tags": [],
-	"description": "",
-	"content": "Create a _header.md page in content folder. Its content is what you get in the logo placeholder (top left of the screen).\nTip : you can add a image, a combobox with links to other documentation\u0026hellip;. Tip 2 : look at extra static menu if you want to add links to other website in this sidebar "
-},
-{
 	"uri": "/getting-start/",
 	"title": "Getting start",
 	"tags": [],
 	"description": "",
-	"content": " Requirements Download Hugo binary for your OS (Windows, Linux, Mac) : it’s that simple\n Installation  HUGO v0.25 minimum required to use this theme The following steps are here to help you initialize your new website. If you don’t know Hugo at all, we strongly suggest you to train by following this great documentation for beginners.  Configuration  When building the website, you can set a theme by using --theme option. We suggest you to edit your configuration file and set the theme by default. Example with config.toml format.  "
+	"content": " Requirements Download Hugo binary for your OS (Windows, Linux, Mac) : it’s that simple\n Installation  \n Configuration  When building the website, you can set a theme by using --theme option. We suggest you to edit your configuration file and set the theme by default. Example with config.toml format.  "
 },
 {
 	"uri": "/getting-start/installation/",
@@ -21,11 +14,18 @@
 	"content": "HUGO v0.25 minimum required to use this theme The following steps are here to help you initialize your new website. If you don’t know Hugo at all, we strongly suggest you to train by following this great documentation for beginners. Create Your Documentation Hugo provides a new command to create a new website.\n$ hugo new site \u0026lt;new_website\u0026gt;  Install The Theme Install the Hugo-theme-docdock theme by following this\nSwitch into the themes directory and download the theme\n$ cd themes $ git clone https://github.com/vjeantet/hugo-theme-docdock.git docdock  Alternatively, you can  download the theme as .zip file and extract it in the themes directory\nBasic Configuration Follow instructions here\n"
 },
 {
-	"uri": "/content-organisation/extramenu/",
-	"title": "Extra menu entries",
+	"uri": "/chapters/chapter1/",
+	"title": "Chapter 1",
 	"tags": [],
 	"description": "",
-	"content": "You can define additional menu entries in the navigation menu without any link to content.\nEdit the website configuration config.toml and add a [[menu.shortcuts]] entry for each link your want to add.\nExample from the current website, note the pre param which allows you to insert HTML code and used here to separate content\u0026rsquo;s menu from this \u0026ldquo;static\u0026rdquo; menu\n[[menu.shortcuts]] pre = \u0026quot;\u0026lt;h3\u0026gt;More\u0026lt;/h3\u0026gt;\u0026quot; name = \u0026quot;\u0026lt;i class='fa fa-github'\u0026gt;\u0026lt;/i\u0026gt; Github repo\u0026quot; identifier = \u0026quot;ds\u0026quot; url = \u0026quot;https://github.com/vjeantet/hugo-theme-docdock\u0026quot; weight = 1 [[menu.shortcuts]] name = \u0026quot;\u0026lt;i class='fa fa-bookmark'\u0026gt;\u0026lt;/i\u0026gt; Hugo Documentation\u0026quot; identifier = \u0026quot;hugodoc\u0026quot; url = \u0026quot;https://gohugo.io/\u0026quot; weight = 2   Read more about hugo and menu here\n"
+	"content": " Chapter 1 - Introduction to Data Learning Objectives  Identify the type of variables (e.g. numerical or categorical; discrite or continuous; ordered or not ordered). Identify the relationship between multiple variables (i.e. indepedent vs. dependent). Define variables that are not associated as independent. Be able to describe and identify the difference between observational and experimental studies. Distinguish between simple random, stratified, and cluster sampling, and recognize the benefits and drawbacks of choosing one sampling scheme over another. Identify the four principles of experimental design and recognize their purposes: control any possible con- founders, randomize into treatment and control groups, replicate by using a sufficiently large sample or repeat- ing the experiment, and block any variables that might influence the response. Use appropriate visualizations for different types of data (e.g. histogram, barplot, scatterplot, boxplot, etc.). Use different measures of center and spread and be able to describe the robustness of different statistics. Describe the shape of distributions vis-à-vis histograms and boxplots. Create and intepret contingency and frequency tables (one- and two-way tables).  Assignments Homework OpenIntro Statistics\n Practice: 1.7 (available in R using the data(iris) command), 1.9, 1.23, 1.33, 1.55, 1.69 Graded: 1.8, 1.10, 1.28, 1.36, 1.48, 1.50, 1.56, 1.70  For 1.48, the following R code will create a vector scores that can be used to answer the question:\nscores \u0026lt;- c(57, 66, 69, 71, 72, 73, 74, 77, 78, 78, 79, 79, 81, 81, 82, 83, 83, 88, 89, 94)  Lab 1 The labs are available in the IS606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.info()['user']). If this is incorrect, then either provide the file-prefix parameter to startLab, or rename the file after it has been copied.\nstartLab('Lab1')  Readings  OpenIntro Statistics slides ggplot2 - ggplot2 is an R package by Wickham that implements the grammer of graphics (Wilkinson, 2005) in R. I will frequently make use of the graphing framework throughout the course and is worth learning. Visualizing Likert Data - An R package for visualizing Likert scale data built on the ggplot2 framework. Quick-R base graphics - Covers many of the visualizations using R\u0026rsquo;s base graphics.  Videos OpenIntro provides a number of videos. You may find these helpful while reading the chapter.\nCase Study: Using Stents to Prevent Strokes\n Data Basics: Observations, Variable, and Data Matrices\n Data Collection Principles\n Observational Studies and Sampling Strategies\n Designing Experiments\n Summarizing and Graphing Numerical Data\n Exploring Categorical Data\n Using Randomization to Analyze a Gender Discrimination Study\n Note about Pie Charts There is only one pie chart in OpenIntro Statistics (Diez, Barr, \u0026amp; Çetinkaya-Rundel, 2015, p. 48). Consider the following three pie charts that represent the preference of five different colors. Is there a difference between the three pie charts? This is probably a difficult to answer.\nHowever, consider the bar plot below. Here, we cleary see there is a difference between the ratio of the three colors. As John Tukey famously said:\n There is no data that can be displayed in a pie chart that cannot better be displayed in some other type of chart\n Source: https://en.wikipedia.org/wiki/Pie_chart.\n"
+},
+{
+	"uri": "/chapters/chapter2/",
+	"title": "Chapter 2",
+	"tags": [],
+	"description": "",
+	"content": " Chapter 2 "
 },
 {
 	"uri": "/getting-start/configuration/",
@@ -35,25 +35,11 @@
 	"content": "When building the website, you can set a theme by using --theme option. We suggest you to edit your configuration file and set the theme by default. Example with config.toml format. theme = \u0026quot;docdock\u0026quot;  Search index generation Add the follow line in the same config.toml file.\n[outputs] home = [ \u0026quot;HTML\u0026quot;, \u0026quot;RSS\u0026quot;, \u0026quot;JSON\u0026quot;]  LUNRJS search index file will be generated on content changes.\nYour website\u0026rsquo;s content Find out how to create and organize your content quickly and intuitively.\n"
 },
 {
-	"uri": "/content-organisation/customize-style/",
-	"title": "Customize website look and feel",
+	"uri": "/chapters/",
+	"title": "Chapters",
 	"tags": [],
 	"description": "",
-	"content": " You can change the style and behavior of the theme without touching it.\n inject your own html, css or js into the page overide existing css or js with your own files  Inject your HTML into the \u0026lt;head\u0026gt; part of each page : Create a custom-head.html into a layouts/partials folder next to the content folder\n  content/ layouts/  partials/  custom-head.html     now feel free to add the JS, CSS, HTML code you want :)\nat the end of the body part of each page : Create a custom-footer.html into a layouts/partials folder next to the content folder\n  content/ layouts/  partials/  custom-footer.html     now feel free to add the JS, CSS, HTML code you want :)\noveride existing CSS or JS Create the matching file in your static folder, hugo will use yours instead of the theme\u0026rsquo;s one. Example :\ncreate a theme.css and place it into static/css/ to fully overide docdock\u0026rsquo;s theme.css\n"
-},
-{
-	"uri": "/create-page/",
-	"title": "Create Page",
-	"tags": ["tag1", "tag2"],
-	"description": "",
-	"content": " Hugo-theme-docdock defines two types of pages. Default and Slide.\n Default is the common page like the current one you are reading. Slide is a page that use the full screen to display its markdown content as a reveals.js presentation. HomePage is a special content that will be displayed as home page content.  To tell Hugo-theme-docdock to consider a page as a slide, just add a type=\u0026quot;slide\u0026quot;in then frontmatter of your file.  read more on page as slide\nHugo-theme-docdock provides archetypes to help you create this kind of pages.\nFront Matter Each Hugo page has to define a Front Matter in yaml, toml or json.\nHugo-theme-docdock uses the following parameters on top of the existing ones :\n+++ # Type of content, set \u0026quot;slide\u0026quot; to display it fullscreen with reveal.js type=\u0026quot;page\u0026quot; # Creator's Display name creatordisplayname = \u0026quot;Valere JEANTET\u0026quot; # Creator's Email creatoremail = \u0026quot;valere.jeantet@gmail.com\u0026quot; # LastModifier's Display name lastmodifierdisplayname = \u0026quot;Valere JEANTET\u0026quot; # LastModifier's Email lastmodifieremail = \u0026quot;valere.jeantet@gmail.com\u0026quot; +++  Ordering Hugo provides a flexible way to handle order for your pages.\nThe simplest way is to use weight parameter in the front matter of your page.\n Read more on content organization\n"
-},
-{
-	"uri": "/content-organisation/",
-	"title": "Content Organisation",
-	"tags": [],
-	"description": "",
-	"content": " With Hugo, pages are the core of your site. Organize your site like any other Hugo project. Magic occurs with the nested sections implemention done in v0.22 of hugo (congrats @bep).\nWith docdock, Each content page composes the menu, they shape the structure of your website.\nTo link pages to each other, place them in a folders hierarchy\ncontent ├── level-one │ ├── level-two │ │ ├── level-three │ │ │ ├── level-four │ │ │ │ ├── _index.md │ │ │ │ ├── page-4-a.md │ │ │ │ ├── page-4-b.md │ │ │ │ └── page-4-c.md │ │ │ ├── _index.md │ │ │ ├── page-3-a.md │ │ │ ├── page-3-b.md │ │ │ └── page-3-c.md │ │ ├── _index.md │ │ ├── page-2-a.md │ │ ├── page-2-b.md │ │ └── page-2-c.md │ ├── _index.md │ ├── page-1-a.md │ ├── page-1-b.md │ └── page-1-c.md ├── _index.md └── page-top.md  _index.md is required in each folder, it\u0026rsquo;s your \u0026ldquo;folder home page\u0026rdquo; Add header to a menu entry in the page frontmatter, add a head param to insert any HTML code before the menu entry:\nexample to display a \u0026ldquo;Hello\u0026rdquo;\n+++ title = \u0026quot;Github repo\u0026quot; head =\u0026quot;\u0026lt;label\u0026gt;Hello\u0026lt;/label\u0026gt; \u0026quot; +++  Add icon to a menu entry in the page frontmatter, add a pre param to insert any HTML code before the menu label:\nexample to display a github icon\n+++ title = \u0026quot;Github repo\u0026quot; pre =\u0026quot;\u0026lt;i class='fa fa-github'\u0026gt;\u0026lt;/i\u0026gt; \u0026quot; +++   \" name = \"Github repo\" +++ -- Look at the menu \u0026ldquo;Create Page/About images\u0026rdquo; which redirects to \u0026ldquo;Shortcodes/image -- Order sibling menu/page entries in your frontmatter add weight param with a number to order.\n+++ title=\u0026quot;My page\u0026quot; weight = 4 +++  add ordersectionsby = \u0026quot;title\u0026quot; in your config.toml to order menu entries by title Hide a menu entry in your frontmatter add hidden=true param.\n+++ title=\u0026quot;My page\u0026quot; hidden = true +++  Unfolded menu entry by default One or more menuentries can be displayed unfolded by default. (like the \u0026ldquo;Getting start\u0026rdquo; menu entry in this website)\nin your frontmatter add alwaysopen=true param. example :\ntitle = \u0026quot;Getting start\u0026quot; description = \u0026quot;\u0026quot; weight = 1 alwaysopen = true  Folder structure and file name Content organization is your content folder structure.\nHomepage Find out how to customize homepage\n"
+	"content": ""
 },
 {
 	"uri": "/shortcodes/",
@@ -70,46 +56,18 @@
 	"content": "Nothing to do on your side. :-)\nDocdock theme uses the last improvement available in hugo version 20+ to generate a json index file ready to be consumed by lunr.js javascript search engine.\nhugo generate lunrjs index.json at the root of public folder. When you build the site with hugo server, hugo generates it internally and of course it don\u0026rsquo;t show up in the filesystem "
 },
 {
-	"uri": "/create-page/homepage/",
-	"title": "Home page",
-	"tags": ["tag1", "tag2"],
-	"description": "",
-	"content": "To tell Hugo-theme-docdock to consider a page as homepage\u0026rsquo;s content, just create a content file named _index.md in content folder.\n"
-},
-{
-	"uri": "/create-page/page-images/",
-	"title": "About images",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
 	"uri": "/",
-	"title": "DocDock Theme for Hugo",
+	"title": "DATA606 - Fall 2017",
 	"tags": [],
 	"description": "",
-	"content": " Hugo docDock theme Hugo-theme-docdock   is a theme for Hugo, a fast and modern static website engine written in Go. Hugo is often used for blogs, this theme is fully designed for documentation.\nThis theme is a partial porting of the Learn theme of matcornic  .\ndocDock works with a \u0026ldquo;page tree structure\u0026rdquo; to organize content : All contents are pages, which belong to other pages. read more about this  Main features  Search Unlimited menu levels Generate RevealJS presentation from markdown (embededed or fullscreen page) Automatic next/prev buttons to navigate through menu entries Image resizing, shadow\u0026hellip; Attachments files List child pages Excerpt ! Include segment of content from one page in another Mermaid diagram (flowchart, sequence, gantt) Icons, Buttons, Alerts, Panels, Tip/Note/Info/Warning boxes, Expand customizable look and feel, theme variants  Contribute to this documentation Feel free to update this content, just click the Edit this page link displayed on top right of each page, and pullrequest it Your modification will be deployed automatically when merged. Documentation website This current documentation has been statically generated with Hugo with a simple command : hugo -t docdock \u0026ndash; source code is available here at GitHub  \nAutomated deployments Automatically published and hosted thanks to Netlify.\nRead more about Automated HUGO deployments with Netlify\n Netlify builds, deploys, and hosts frontends.  "
-},
-{
-	"uri": "/create-page/myslide/",
-	"title": "My Slide ! fullscreen",
-	"tags": [],
-	"description": "",
-	"content": " In the morning Getting up  Turn off alarm Get out of bed  Breakfast  Eat eggs Drink coffee  In the evening Dinner  Eat spaghetti Drink wine  Going to sleep  Get in bed Count sheep  "
-},
-{
-	"uri": "/create-page/page-slide/",
-	"title": "Present a Slide",
-	"tags": [],
-	"description": "",
-	"content": " A basic md content page can be rendered as a reveal.js presentation full screen.\nYou can, also, embed presentation in a page as a small box, using the revealjs shortcode in your md file. Formating Use your common Markdown syntax you use in Hugo, don\u0026rsquo;t forget, you can put html tags too.\nSpecial syntax (in html comment) is available for adding attributes to Markdown elements. This is useful for fragments, amongst other things.\n Please read the  doc from hakimel\nOptions In the frontmatter of your page file, set type and revealOptions params\nYour content will be served as a fullscreen revealjs presentation and revealOptions will be used to ajust its behaviour.\n+++ title = \u0026quot;Test slide\u0026quot; type=\u0026quot;slide\u0026quot; theme = \u0026quot;league\u0026quot; [revealOptions] transition= 'concave' controls= true progress= true history= true center= true +++  read more about reveal options here\nSlide Delimiters When creating the content for your slideshow presentation within content markdown file you need to be able to distinguish between one slide and the next. This is achieved very simply using a convention within Markdown that indicates the start of each new slide.\nAs both horizontal and vertical slides are supported by reveal.js each has it\u0026rsquo;s own unique delimiter.\nTo denote the start of a horizontal slide simply add the following delimiter in your Markdown:\n---  To denote the start of a vertical slide simply add the following delimiter in your Markdown:\n___  By using a combination of horizontal and vertical slides you can customize the navigation within your slideshow presentation. Typically vertical slides are used to present information below a top-level horizontal slide.\nFor example, a very simple slideshow presentation can be created as follows\n+++ title = \u0026quot;test\u0026quot; date = \u0026quot;2017-04-24T18:36:24+02:00\u0026quot; type=\u0026quot;slide\u0026quot; theme = \u0026quot;league\u0026quot; [revealOptions] transition= 'concave' controls= true progress= true history= true center= true +++ # In the morning ___ ## Getting up - Turn off alarm - Get out of bed ___ ## Breakfast - Eat eggs - Drink coffee --- # In the evening ___ ## Dinner - Eat spaghetti - Drink wine ___ ## Going to sleep - Get in bed - Count sheep   click here to view this page rendered\n"
+	"content": " DATA606 - Fall 2017 Instructor: Jason Bryer, Ph.D.\nClass Meetup: Thursday 8:00pm to 9:00pm\nOffice Hours: By appointment\nEmail: jason.bryer@gmail.com\nPhone: 518-464-8594\nCourse Description This course covers basic techniques in probability and statistics that are important in the field of data analytics. Discrete probability models, sampling from infinite and finite populations, statistical distributions, basic Bayesian statistics, and non-parametric statistical techniques for categorical data are covered in this course. Each of these statistical concepts will be applied in a variety of real-world scenarios through the use of case studies and customized data sets.\nCourse Learning Outcomes: By then end of the course, students should be able to:\n Understand the foundations of probability theory and perform basic probability calculations. Build basic stochastic models for commonly encountered business problems. Model situations involving uncertainty using appropriate probability distributions and conditional techniques. Explore and summarize data using descriptive statistics. Test hypotheses using classical and modern computational techniques. Construct estimators and calculate intervals using classical and modern computational techniques. Perform basic Bayesian statistical techniques for estimation and testing hypotheses.  Program Learning Outcomes addressed by the course:  Business Understanding. Learn when probabilistic techniques apply to certain categories of business problems, discuss the sorts of solutions that are possible, and understand the limitations of these techniques. Foundational Math Skills. Explore and analyze data, build probabilistic and statistical models, construct estimators, and test hypotheses. Predictive Modeling. Learn foundational techniques that underlie predictive modeling algorithms, such as Naïve Bayes. Presentation. Complete and submit collaborative assignments using techniques from the course.  How is this course relevant for data analytics professionals? Probabilistic techniques are the foundation of many data science applications from data exploration and visualization to outlier analysis, stochastic modelling, and data mining algorithms. This course will ensure that students have a strong understanding of these foundations.\nGrading  Homework (16%) Labs (40%) Data Project (20%) Final exam (18%) Meetup Presentation (5%) Getting Aquainted (1%)  Grade Distribution    Quality of Performance Letter Grade Range % GPA     Excellent - work is of exceptional quality A 93 - 100 4   Excellent A- 90 - 92.9 3.7   Good - work is above average B+ 87 - 89.9 3.3   Satisfactory B 83 - 86.9 3   Below Average B- 80 - 82.9 2.7   Poor C+ 77 - 79.9 2.3   Poor C 70 - 76.9 2   Failure F \u0026lt; 70 0    How This Course Works: This course is conducted entirely online. Each week, you will have various resources made available, including weekly readings from the textbooks and occasionally additional readings provided by the instructor. Most weeks will have homework assignments to be submitted. There will also be a presentation required and a forum post introduction required. You are expected to complete all assignments by their due dates.\nMeetup presentations will comprise the solution and presentation to the class of one of the suggested problems for study from the weekly materials (not the graded homework problems). Each student must present one problem throughout the semester. Problems are chosen by entering your name and problem in the Google Spreadsheet. Note there is a maximum of three presentatiosn per meetup and presentations should be no more than five minutes. Additionally, prepare your presentation so that the slides or document (I suggest using R Markdown) will be shared on the course website. Problems are assigned first come, first served, so any problem not already chosen by another student is available.\nPresentation Signup Sheet\nFurther details on each of these assignments will be available in Blackboard and/or this Github repository.\nTextbooks Required Diez, D.M., Barr, C.D., \u0026amp; Çetinkaya-Rundel, M. (2015). OpenIntro Statistics (3rd Ed).\n This is an open source textbook and can be downloaded in PDF format here, from the OpenIntro website, or a printed copy can be ordered from Amazon.\n Navarro, D. (2015, version 0.5). Learning Statistics with R\n This is free textbook that supplements a lot of the material covered in Diez and Barr. We will use the chapter on Bayesian analysis. You can download a PDF version, or buy a print copy from Lulu through the author\u0026rsquo;s website.\n Recommended Wickham, H., \u0026amp; Grolemund, G. (2016) R for Data Science. O\u0026rsquo;Reilly.\n Most of this books is available freely online at r4ds.had.co.nz/ but can be purchased from Amazon.\n Kabacoff, R.I. (2011). R in Action. Manning Publications.\n You can find a lot of the material in R in Action on Kabacoff\u0026rsquo;s website, statmethods.net. You can receive 38% off using the ria38 promo code when ordering from here.\n Wickham, H. Advanced R. Baca Raton, FL: Taylor \u0026amp; Francis Group.\n Most of this book is available freely online at adv-r.had.co.nz but can be purchased from Amazon.\n Kruschke, J.K. (2014). Doing Bayesian Data Analysis, Second Edition: A Tutorial with R, JAGS, and Stan (2nd Ed). London: Academic Press.\n This book can be purchased from Amazon, but also check out the author\u0026rsquo;s webiste (doingbayesiandataanalysis.blogspot.com/) for additional resources.\n Other Documents  Probability Tables Inference Guide RStudio Cheat Sheets Probability Cheat Sheet  Contact Office Hours (cell phone or using GoToMeeting): By appointment. You’re encouraged to schedule an appointment, but you can try to call anytime.\nYou are encouraged to ask us questions on the \u0026ldquo;Ask Your Instructor\u0026rdquo; forum on the course discussion board where other students will be able to benefit from your inquiries.\nFor the most part, you can expect me to respond to questions by email within 24 to 48 hours. If you do not hear back from me within 48 hours of sending an email, please resend your message.\nI will be checking in on the course regularly, just about every day and likely several times each day. Please do not hesitate to ask if you have questions or concerns.\nAccessibility and Accommodations The CUNY School of Professional Studies is firmly committed to making higher education accessible to students with disabilities by removing architectural barriers and providing programs and support services necessary for them to benefit from the instruction and resources of the University. Early planning is essential for many of the resources and accommodations provided. Please see: http://sps.cuny.edu/student_services/disabilityservices.html\nOnline Etiquette and Anti-Harassment Policy The University strictly prohibits the use of University online resources or facilities, including Blackboard, for the purpose of harassment of any individual or for the posting of any material that is scandalous, libelous, offensive or otherwise against the University’s policies. Please see: http://media.sps.cuny.edu/filestore/8/4/9_d018dae29d76f89/849_3c7d075b32c268e.pdf\nAcademic Integrity Academic dishonesty is unacceptable and will not be tolerated. Cheating, forgery, plagiarism and collusion in dishonest acts undermine the educational mission of the City University of New York and the students\u0026rsquo; personal and intellectual growth. Please see: http://media.sps.cuny.edu/filestore/8/3/9_dea303d5822ab91/839_1753cee9c9d90e9.pdf\nStudent Support Services If you need any additional help, please visit Student Support Services: http://sps.cuny.edu/student_resources/\n"
 },
 {
 	"uri": "/_header/",
 	"title": "header",
 	"tags": [],
 	"description": "",
-	"content": "DocDock Documentation\n"
+	"content": "DATA606 - Fall 2017\n"
 },
 {
 	"uri": "/post/2015-07-23-r-rmarkdown/",
@@ -175,32 +133,11 @@
 	"content": ""
 },
 {
-	"uri": "/tags/tag1/",
-	"title": "Tag1",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "/tags/tag2/",
-	"title": "Tag2",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
 	"uri": "/tags/",
 	"title": "Tags",
 	"tags": [],
 	"description": "",
 	"content": ""
-},
-{
-	"uri": "/content-organisation/customize-style/theme-variants/",
-	"title": "Theme variants",
-	"tags": [],
-	"description": "change theme style/colors",
-	"content": " In site configuration file, you can set a variant name of this theme to load a specific css, with different color specifications.\nadd a param themeVariant = \u0026quot;VARIANT_NAME\u0026quot; in the [params] part of config.toml file.\nAvailable variants change only colors at this moment Variant \u0026ldquo;gray\u0026rdquo; [params] themeVariant = \u0026quot;gray\u0026quot;  Variant \u0026ldquo;gold\u0026rdquo; [params] themeVariant = \u0026quot;gold\u0026quot;  Variant \u0026ldquo;green\u0026rdquo; [params] themeVariant = \u0026quot;green\u0026quot;`  "
 },
 {
 	"uri": "/shortcodes/alert/",

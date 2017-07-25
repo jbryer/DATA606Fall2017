@@ -1,0 +1,33 @@
+baseURL = "/"
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+
+title = "DATA606 - Fall 2017"
+theme = "hugo-theme-docdock"
+themesdir = "themes/"
+
+[params]
+editURL = "https://github.com/jbryer/DATA606Fall2017/"
+noHomeIcon = false # default is false
+noSearch = false # default is false
+showVisitedLinks = true # default is false
+# themeStyle = "theme" # overide base css
+themeVariant = "blue" # choose theme variant "green", "gold" , "gray", "blue" (default)
+ordersectionsby = "weight" # ordersectionsby = "title"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+
+[[menu.shortcuts]]
+pre = "<h3>More</h3>"
+name = "<i class='fa fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/jbryer/DATA606Fall2017"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-camera'></i> Blackboard"
+url = "https://bbhosted.cuny.edu/webapps/login"
+weight = 11
+
