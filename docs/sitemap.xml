@@ -3,16 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/getting-start/</loc>
-  </url>
-  
-  <url>
-    <loc>/getting-start/installation/</loc>
-  </url>
-  
-  <url>
     <loc>/chapters/chapter1/</loc>
     <lastmod>2017-04-29T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/course-overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/assignments/presentation/</loc>
+  </url>
+  
+  <url>
+    <loc>/course-overview/schedule/</loc>
   </url>
   
   <url>
@@ -21,7 +25,62 @@
   </url>
   
   <url>
-    <loc>/getting-start/configuration/</loc>
+    <loc>/assignments/</loc>
+  </url>
+  
+  <url>
+    <loc>/course-overview/meetups/</loc>
+  </url>
+  
+  <url>
+    <loc>/chapters/chapter3/</loc>
+    <lastmod>2017-04-29T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/assignments/homework/</loc>
+  </url>
+  
+  <url>
+    <loc>/chapters/chapter4/</loc>
+    <lastmod>2017-04-29T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/assignments/labs/</loc>
+  </url>
+  
+  <url>
+    <loc>/chapters/chapter5/</loc>
+    <lastmod>2017-04-29T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/assignments/project/</loc>
+  </url>
+  
+  <url>
+    <loc>/assignments/recipe/</loc>
+  </url>
+  
+  <url>
+    <loc>/chapters/chapter6/</loc>
+    <lastmod>2017-04-29T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/chapters/chapter7/</loc>
+    <lastmod>2017-04-29T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/chapters/chapter8/</loc>
+    <lastmod>2017-04-29T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/chapters/bayesian/</loc>
+    <lastmod>2017-04-29T18:36:24+02:00</lastmod>
   </url>
   
   <url>
@@ -30,12 +89,13 @@
   </url>
   
   <url>
-    <loc>/shortcodes/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+    <loc>/post/2017-08-25-getting-started-with-r/</loc>
+    <lastmod>2017-08-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/search/</loc>
+    <loc>/post/2017-08-24-welcome-to-data606/</loc>
+    <lastmod>2017-08-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -49,149 +109,38 @@
   </url>
   
   <url>
-    <loc>/post/2015-07-23-r-rmarkdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/credits/</loc>
-  </url>
-  
-  <url>
-    <loc>/showcase/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/plot/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/post/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <lastmod>2017-08-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/r/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <lastmod>2017-08-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/regression/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <lastmod>2017-08-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <lastmod>2017-08-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/shortcodes/alert/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/attachments/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/button/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/children/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/excerpt/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/excerpt-include/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/expand/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/icon/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/image/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/mermaid/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/notice/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/children/children-1/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/children/children-1/children-1-1/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/children/children-1/children-1-1/children-1-1-1/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/children/children-2/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/children/children-3/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/children/children-4/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/children/test/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/children/children-2/test3/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/panel/</loc>
-  </url>
-  
-  <url>
-    <loc>/shortcodes/revealjs/</loc>
+    <loc>/tags/working-directories/</loc>
+    <lastmod>2017-08-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

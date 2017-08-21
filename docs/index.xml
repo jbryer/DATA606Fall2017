@@ -12,22 +12,6 @@
     
     
     <item>
-      <title>Installation</title>
-      <link>/getting-start/installation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/getting-start/installation/</guid>
-      <description>&lt;div class=&#34;alert 
-alert-warning&#34;
- 
-role=&#34;alert&#34;&gt;HUGO &lt;strong&gt;v0.25&lt;/strong&gt; minimum required to use this theme&lt;/div&gt;
-
-
-&lt;p&gt;The following steps are here to help you initialize your new website. If you don’t know Hugo at all, we strongly suggest you to train by following this &lt;a href=&#34;https://gohugo.io/overview/quickstart/&#34;&gt;great documentation for beginners&lt;/a&gt;.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Chapter 1</title>
       <link>/chapters/chapter1/</link>
       <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
@@ -37,22 +21,180 @@ role=&#34;alert&#34;&gt;HUGO &lt;strong&gt;v0.25&lt;/strong&gt; minimum required
     </item>
     
     <item>
+      <title>Presentation</title>
+      <link>/assignments/presentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/presentation/</guid>
+      <description>You are responsible for presenting one practice homework problem during the semester. Please sign up as-soon-as possible as there are only three slots per week. Try to keep each presentation to five minutes or less. Sign-up on this Google Spreadsheet: https://docs.google.com/spreadsheets/d/18JPR5b-0-Oyinj&amp;ndash;H6hb8u8BY9QxCv8S4UsCwTGvS9w/edit#gid=0
+GoToMeeting Connection Information:
+https://global.gotomeeting.com/join/890853557
+You can also dial in using your phone: (646) 749-3122
+Access Code: 890-853-557</description>
+    </item>
+    
+    <item>
+      <title>Schedule</title>
+      <link>/course-overview/schedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/course-overview/schedule/</guid>
+      <description> Google Calendar
+ Course Schedule    Start Due Date Chapter Topic     Aut-25 Sep-3 1 Intro to Data   Sep-4 Sep-10 2 Probability   Sep-11 Sep-24 3 Distributions   Sep-25 Oct-8 4 Foundation for Inference   Oct-9 Oct-29 5 Inference for Numerical Data   Oct-9 Oct-29 6 Inference for Categorical Data   Oct-30 Nov-12 7 Linear Regression   Nov-13 Nov-26 8 Multiple &amp;amp; Logistic Regression   Nov-27 Dec-13 Navarro Introduction to Bayesian Analysis   Dec-14 Dec-20  Final Exam    </description>
+    </item>
+    
+    <item>
       <title>Chapter 2</title>
       <link>/chapters/chapter2/</link>
       <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
       
       <guid>/chapters/chapter2/</guid>
-      <description> Chapter 2 </description>
+      <description>Chapter 2 Learning Outcomes  Define trial, outcome, and sample space. Define and describe the law of large numbers. Distinguish disjoint (also called mutually exclusive) and independent events. Use Venn diagrams to represent events and their probabilities. Describe probability distributions. Distinguish between marginal and conditional probabilities. Use tree diagrams and/or Bayes Theorem to calculate conditional probabilities and probabilities of intersection of non-independent events. The expected value of a discrete random variable is computed by adding each outcome weighted by its probability.</description>
     </item>
     
     <item>
-      <title>Configuration</title>
-      <link>/getting-start/configuration/</link>
+      <title>Meetups</title>
+      <link>/course-overview/meetups/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/getting-start/configuration/</guid>
-      <description>&lt;p&gt;When building the website, you can set a theme by using &lt;code&gt;--theme&lt;/code&gt; option. We suggest you to edit your configuration file and set the theme by default. Example with &lt;code&gt;config.toml&lt;/code&gt; format.
-&lt;/p&gt;</description>
+      <guid>/course-overview/meetups/</guid>
+      <description>There will be weekly meetups. You are encouraged to attend as many as you can but recordings will generally be availabe the day after the meetup.
+You can join the meetup from your computer, tablet or smartphone at: https://global.gotomeeting.com/join/890853557.
+You can also dial in using your phone: (646) 749-3122
+Access Code: 890-853-557
+Presentation Signup Sheet
+   Date Topic Resources     Tuesday, Aug 29, 8:00 pm Introduction to Data    Wednesday, Sep 6, 8:00 pm Probability    Wednesday, Sep 13, 8:00 pm Distributions Part I    Wednesday, Sep 20, 8:00 pm Distributions Part II    Wednesday, Sep 27, 8:00 pm Foundation for Inference    Wednesday, Oct 4, 8:00 pm Foundation for Inference cont.</description>
+    </item>
+    
+    <item>
+      <title>Chapter 3</title>
+      <link>/chapters/chapter3/</link>
+      <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/chapters/chapter3/</guid>
+      <description>Chapter 3 Assignments Homework OpenIntro Statistics
+ Practice: 3.1 (see normalPlot), 3.3, 3.17 (use qqnormsim from lab 3), 3.21, 3.37, 3.41 Graded: 3.2 (see normalPlot), 3.4, 3.18 (use qqnormsim from lab 3), 3.22, 3.38, 3.42  Lab The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.</description>
+    </item>
+    
+    <item>
+      <title>Homework</title>
+      <link>/assignments/homework/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/homework/</guid>
+      <description>The solutions to the practice problems are at the end of the book and do not need to be handed in. Graded assignments should be typed (preferably using R Markdown) or neatly hand written and scanned. Data for the homework assignments, and for within the chapters too, can be downloaded here.
+ Chapter 1 - Introduction to Data  Practice: 1.7 (available in R using the data(iris) command), 1.9, 1.23, 1.</description>
+    </item>
+    
+    <item>
+      <title>Chapter 4</title>
+      <link>/chapters/chapter4/</link>
+      <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/chapters/chapter4/</guid>
+      <description>Chapter 4 Assignments Homework OpenIntro Statistics
+ Practice: Graded:  Labs The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.info()[&#39;user&#39;]). If this is incorrect, then either provide the file-prefix parameter to startLab, or rename the file after it has been copied.</description>
+    </item>
+    
+    <item>
+      <title>Labs</title>
+      <link>/assignments/labs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/labs/</guid>
+      <description>These mini projects will have you explore statistical topics using R. You can use the startLab function in the DATA606 package to get started, or copy the templates from the links below. Please submit a PDF (preferred) or HTML file along with your Rmarkdown file. Be sure to answer all questions in lab, not just the on your own section. Labs can be submitted on Blackboard.
+Introduction to R and RStudio (Template) Introduction to Data (Template) Probability (Template) Distributions of Random Variables (Template) Foundations for Statistical Inference Sampling Distributions (Template) Confidence Levels (Template)  Inference for Numerical Data (Template) Inference for Categorical Data (Template) Introduction to Linear Regression (Template) Multiple Linear Regerssion (Template)  </description>
+    </item>
+    
+    <item>
+      <title>Chapter 5</title>
+      <link>/chapters/chapter5/</link>
+      <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/chapters/chapter5/</guid>
+      <description>Chapter 5 Assignments Homework OpenIntro Statistics
+ Practice: Graded:  Lab The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.info()[&#39;user&#39;]). If this is incorrect, then either provide the file-prefix parameter to startLab, or rename the file after it has been copied.</description>
+    </item>
+    
+    <item>
+      <title>Project</title>
+      <link>/assignments/project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/project/</guid>
+      <description>Download project proposal template Download project template  The purpose of the data project is for you to conduct a reproducible analysis with a data set of your choosing. There are two components to the project, the proposal, which will be graded on a pass/fail basis, and the final report. The outline for each of these are provided in the templates. When submitting the assignments, include the R Markdown file (change the name to include your last name, for example Bryer-Proposal.</description>
+    </item>
+    
+    <item>
+      <title>Recipe</title>
+      <link>/assignments/recipe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/recipe/</guid>
+      <description>Stay tuned&amp;hellip;
+For not, visit https://github.com/jbryer/CUNY-MSDS-Fall2017 for more information.</description>
+    </item>
+    
+    <item>
+      <title>Chapter 6</title>
+      <link>/chapters/chapter6/</link>
+      <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/chapters/chapter6/</guid>
+      <description>Chapter 6 Assignments Homework OpenIntro Statistics
+ Practice: Graded:  Lab The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.info()[&#39;user&#39;]). If this is incorrect, then either provide the file-prefix parameter to startLab, or rename the file after it has been copied.</description>
+    </item>
+    
+    <item>
+      <title>Chapter 7</title>
+      <link>/chapters/chapter7/</link>
+      <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/chapters/chapter7/</guid>
+      <description>Chapter 7 Assignments Homework OpenIntro Statistics
+ Practice: Graded:  Lab The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.info()[&#39;user&#39;]). If this is incorrect, then either provide the file-prefix parameter to startLab, or rename the file after it has been copied.</description>
+    </item>
+    
+    <item>
+      <title>Chapter 8</title>
+      <link>/chapters/chapter8/</link>
+      <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/chapters/chapter8/</guid>
+      <description>Chapter 8 Assignments Homework OpenIntro Statistics
+ Practice: Graded:  Lab 1 The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.info()[&#39;user&#39;]). If this is incorrect, then either provide the file-prefix parameter to startLab, or rename the file after it has been copied.</description>
+    </item>
+    
+    <item>
+      <title>Bayesian</title>
+      <link>/chapters/bayesian/</link>
+      <pubDate>Sat, 29 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/chapters/bayesian/</guid>
+      <description> Bayesian Analysis Assignments Homework OpenIntro Statistics
+ Practice: Graded:  Lab 1 Readings  Fitting a Model by Maximum Likelihood (Collier, 2013). Kruschke&amp;rsquo;s website for Doing Bayesian Data Analysis Kruschke&amp;rsquo;s blog Andrew Gelman&amp;rsquo;s blog - Posts about bayesian statistics  Videos Bayesian Methods Interpret Data Better
+ Bayesian Estimation Supersedes the t Test
+ Precision is the goal
+ </description>
+    </item>
+    
+    <item>
+      <title>Getting Started with R</title>
+      <link>/post/2017-08-25-getting-started-with-r/</link>
+      <pubDate>Fri, 25 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2017-08-25-getting-started-with-r/</guid>
+      <description>To get started with the labs, you will need to install R and other supporting applications. Links to download all the software is on the Software page at http://data606.net/software which is available on the Misc menu. Once you are in RStudio, you will need to install a number of R packages using the following two commands:
+install.packages(c(&amp;#39;openintro&amp;#39;,&amp;#39;OIdata&amp;#39;,&amp;#39;devtools&amp;#39;,&amp;#39;ggplot2&amp;#39;,&amp;#39;psych&amp;#39;,&amp;#39;reshape2&amp;#39;, &amp;#39;knitr&amp;#39;,&amp;#39;markdown&amp;#39;,&amp;#39;shiny&amp;#39;)) devtools::install_github(&amp;quot;jbryer/DATA606&amp;quot;) Note that this course used to be listed as IS 606, hence the different package name.</description>
+    </item>
+    
+    <item>
+      <title>Welcome to DATA606!</title>
+      <link>/post/2017-08-24-welcome-to-data606/</link>
+      <pubDate>Fri, 25 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2017-08-24-welcome-to-data606/</guid>
+      <description>Welcome to DATA606! My name is Dr. Jason Bryer and I will be your instructor for this semester. In addition to teaching this course, I am an Executive Director at Excelsior College where I am currently working on a Department of Education grant to develop a Diagnostic Assessment and Achievement of College Skills (see www.DAACS.net for more information). Our first meeting will be on Tuesday, August 29th, but will typically be on Wednesdays for the rest of the semester.</description>
     </item>
     
     <item>
@@ -62,185 +204,6 @@ role=&#34;alert&#34;&gt;HUGO &lt;strong&gt;v0.25&lt;/strong&gt; minimum required
       
       <guid>/_header/</guid>
       <description>DATA606 - Fall 2017</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
-    </item>
-    
-    <item>
-      <title>Credits</title>
-      <link>/credits/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/credits/</guid>
-      <description>github contributors .ghContributors{ display:flex; flex-flow: wrap; align-content: flex-start } .ghContributors  div{ width: 50% ; display: inline-flex; margin-bottom: 5px; } .ghContributors  div label{ padding-left: 4px ; } .ghContributors  div span{ font-size: x-small; padding-left: 4px ; }   @vjeantet 164 commits   @matcornic 49 commits   @gwleclerc 20 commits   @lierdakil 16 commits   @Xipas 5 commits   @altinnadmin 4 commits   @Thiht 2 commits   @vielmetti 1 commits   @erikjasiak 1 commits   @giuliov 1 commits   @tarpdalton 1 commits   @JohnBlood 1 commits   @jose-oc 1 commits   @kamilchm 1 commits   @ripienaar 1 commits   @shazic 1 commits   @viertaxa 1 commits   @uweschaefer 1 commits   @justin-yan 1 commits   @xxxtonixxx 1 commits   Other contributors  @bep supports and advices   Packages and libraries  Bootstrap - front-end framework mermaid - generation of diagram and flowchart from text in a similar manner as markdown font awesome - the iconic font and CSS framework jQuery - The Write Less, Do More, JavaScript Library lunr - Lunr enables you to provide a great search experience without the need for external, server-side, search services&amp;hellip; horsey - Progressive and customizable autocomplete component clipboard.</description>
-    </item>
-    
-    <item>
-      <title>Docdock-built Sites</title>
-      <link>/showcase/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/showcase/</guid>
-      <description> https://invincible.site/ by @shazic </description>
-    </item>
-    
-    <item>
-      <title>alert</title>
-      <link>/shortcodes/alert/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/shortcodes/alert/</guid>
-      <description>The alert shortcode allow you to highlight information in your page. They create a colored box surrounding your text, like this:
-This is an alert ! Usage    Parameter Default Description     theme info success, info,warning,danger    Tips : setting only the theme as argument works too : {{%alert warning%}} instead of {{%alert theme=&amp;quot;warning&amp;quot;%}}
- Basic examples {{% alert theme=&amp;quot;info&amp;quot; %}}**this** is a text{{% /alert %}} {{% alert theme=&amp;quot;success&amp;quot; %}}**Yeahhh !</description>
-    </item>
-    
-    <item>
-      <title>attachments</title>
-      <link>/shortcodes/attachments/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/shortcodes/attachments/</guid>
-      <description>The Attachments shortcode displays a list of files attached to a page. Example :   Attachments   BachGavotteShort.mp3  (357 ko)   Carroll_AliceAuPaysDesMerveilles.pdf  (175 ko)   adivorciarsetoca00cape.pdf  (361 ko)   hugo.png  (17 ko)   movieselectricsheep-flock-244-32500-2.mp4  (340 ko)    Usage The shortcurt lists files found in a specific folder. Currently, it support two implementations for pages
- If your page is a markdown file, attachements must be place in a folder named like your page and ending with .</description>
-    </item>
-    
-    <item>
-      <title>button</title>
-      <link>/shortcodes/button/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/shortcodes/button/</guid>
-      <description>Display an actionable button in your page.
- This is a warning button   Usage    Parameter Default Description     href &amp;rdquo;&amp;rdquo; The location href to link to   align &amp;ldquo;center&amp;rdquo; horizontal align button on page   theme primary default, primary , success,info,warning,danger    The inner text you place in short code will be displayed as the button text</description>
-    </item>
-    
-    <item>
-      <title>excerpt</title>
-      <link>/shortcodes/excerpt/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/shortcodes/excerpt/</guid>
-      <description>The Excerpt shortcode is used to mark a part of a page&amp;rsquo;s content for re-use. Defining an excerpt enables other shortcodes, such as the excerpt-include shortcode, to display the marked content elsewhere.
-You can only define one excerpt per page. In other words, you can only add the Excerpt shortcode once to a page. Usage    Parameter Default Description     hidden &amp;ldquo;false&amp;rdquo; Controls whether the page content contained in the Excerpt shortcode placeholder is displayed on the page.</description>
-    </item>
-    
-    <item>
-      <title>excerpt-include</title>
-      <link>/shortcodes/excerpt-include/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/shortcodes/excerpt-include/</guid>
-      <description>The Excerpt Include shortcode is used to display &amp;lsquo;excerpted&amp;rsquo; (that is, a segment of) content from one page in another. Before you can use this shortcode, the excerpt must have been defined using the Excerpt shortcode. Note that you can have more than one Excerpt Include shortcode on a page (although you can have only one Excerpt shortcode on a page). Usage    Parameter Default Description     filename required Type the filename of the page that contains the excerpt to be displayed.</description>
-    </item>
-    
-    <item>
-      <title>expand</title>
-      <link>/shortcodes/expand/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/shortcodes/expand/</guid>
-      <description>The Expand shortcode displays an expandable/collapsible section of text on your page. Here is an example
-  Expand me...   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</description>
-    </item>
-    
-    <item>
-      <title>icon</title>
-      <link>/shortcodes/icon/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/shortcodes/icon/</guid>
-      <description>Display an icon like   
-It uses :
- glyphicons library (bootstrap).more info here fontawesome library more info here  This icon shortcode will display an icon in your page.
-Usage    Parameter Default Description     name required name of icon (see bellow)   size none size of icon, medium, xx-small, x-small, small, large, x-large, xx-large, 11px, 2em, 20%&amp;hellip;.    Tips : setting only the name as argument works too : {{&amp;lt;icon film&amp;gt;}} instead of {{&amp;lt;icon name=&amp;quot;film&amp;quot;&amp;gt;}}</description>
-    </item>
-    
-    <item>
-      <title>image</title>
-      <link>/shortcodes/image/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/shortcodes/image/</guid>
-      <description> Images have a similar syntax to links but include a preceding exclamation point.
-![agence](https://github.com/vjeantet/vjeantet.fr/raw/master/static/images/sgthon/C.jpg)  Resizing image Add HTTP parameters width and/or height to the link image to resize the image. Values are CSS values (default is auto).
-![Hackathon](https://github.com/vjeantet/vjeantet.fr/raw/master/static/images/sgthon/C.jpg?height=80px)  Add CSS classes Add a HTTP classes parameter to the link image to add CSS classes. shadow and border are available but you could define other ones.
-![s](https://github.com/vjeantet/vjeantet.fr/raw/master/static/images/sgthon/C.jpg?classes=border,shadow)  </description>
-    </item>
-    
-    <item>
-      <title>mermaid</title>
-      <link>/shortcodes/mermaid/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/shortcodes/mermaid/</guid>
-      <description>Flowchart example   Show code ...   {{&amp;lt;mermaid align=&amp;quot;left&amp;quot;&amp;gt;}} graph LR; A[Hard edge] --&amp;gt;|Link text| B(Round edge) B --&amp;gt; C{Decision} C --&amp;gt;|One| D[Result one] C --&amp;gt;|Two| E[Result two] {{&amp;lt; /mermaid &amp;gt;}}    graph LR; A[Hard edge] --|Link text| B(Round edge) B -- C{Decision} C --|One| D[Result one] C --|Two| E[Result two] 
-Sequence example   Show code ...   {{&amp;lt;mermaid&amp;gt;}} sequenceDiagram participant Alice participant Bob Alice-&amp;gt;&amp;gt;John: Hello John, how are you?</description>
-    </item>
-    
-    <item>
-      <title>notice</title>
-      <link>/shortcodes/notice/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/shortcodes/notice/</guid>
-      <description>The notice shortcode shows 4 types of disclaimers to help you structure your page.
-Note {{% notice note %}} A notice disclaimer {{% /notice %}}  renders as
-A notice disclaimer
- Info {{% notice info %}} An information disclaimer {{% /notice %}}  renders as
-An information disclaimer
- Tip {{% notice tip %}} A tip disclaimer {{% /notice %}}  renders as
-A tip disclaimer
- Warning {{% notice warning %}} An warning disclaimer {{% /notice %}}  renders as</description>
-    </item>
-    
-    <item>
-      <title>page test</title>
-      <link>/shortcodes/children/test/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/shortcodes/children/test/</guid>
-      <description>This is a test demo child page</description>
-    </item>
-    
-    <item>
-      <title>page test 3</title>
-      <link>/shortcodes/children/children-2/test3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/shortcodes/children/children-2/test3/</guid>
-      <description>This is a test 3 demo child page</description>
-    </item>
-    
-    <item>
-      <title>panel</title>
-      <link>/shortcodes/panel/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/shortcodes/panel/</guid>
-      <description>The panel shortcode Allow you to highlight information or put it in a box. They create a colored box surrounding your text  Usage    Parameter Default Description     header none The title of the panel. If specified, this title will be displayed in its own header row.   footer none the footer of the panel. If specified, this text will be displayed in its own row   theme primary default,primary,info,success,warning,danger    Basic example By default :</description>
-    </item>
-    
-    <item>
-      <title>revealjs</title>
-      <link>/shortcodes/revealjs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/shortcodes/revealjs/</guid>
-      <description>This shortcode will format the enclosed markdow to render it with reveal.js at runtime (client-side)
-Read more on revealjs github repo.
-Usage revealjs can use the following named parameters :
- theme transition controls progress history center  Important Even if the enclosed content is a mardown, use &amp;lt; shortcode notation instead of the % notation  Content formating and slide delimiters read more on this here
-Demo  # In the morning ___ ## Getting up - Turn off alarm - Get out of bed ___ ## Breakfast - Eat eggs - Drink coffee --- # In the evening ___ ## Dinner - Eat spaghetti - Drink wine ___ ## Going to sleep - Get in bed - Count sheep       function initSlides() { Reveal.</description>
     </item>
     
   </channel>
