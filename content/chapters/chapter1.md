@@ -1,7 +1,7 @@
 +++
 title = "Chapter 1"
 date = "2017-04-29T18:36:24+02:00"
-Weight=2
+Weight=1
 +++
 
 # Chapter 1 - Introduction to Data
@@ -38,7 +38,7 @@ scores <- c(57, 66, 69, 71, 72, 73, 74, 77, 78, 78, 79, 79, 81, 81, 82, 83, 83, 
 
 ### Lab 1
 
-The labs are available in the `IS606` R package. To start the first lab, use the `startLab` function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by `Sys.info()['user']`). If this is incorrect, then either provide the `file-prefix` parameter to `startLab`, or rename the file after it has been copied.
+The labs are available in the `DATA606` R package. To start the first lab, use the `startLab` function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by `Sys.info()['user']`). If this is incorrect, then either provide the `file-prefix` parameter to `startLab`, or rename the file after it has been copied.
 
 
 ```r
@@ -47,7 +47,7 @@ startLab('Lab1')
 
 ## Readings
 
-* [OpenIntro Statistics slides](https://github.com/jbryer/IS606Fall2015/raw/master/Slides/OpenIntro/os2_slides_01.pdf)
+* [OpenIntro Statistics slides](https://github.com/jbryer/DATA606Fall2017/raw/master/Slides/OpenIntro/os2_slides_01.pdf)
 * [ggplot2](http://ggplot2.org/) - `ggplot2` is an R package by Wickham that implements the [grammer of graphics](http://www.amazon.com/The-Grammar-Graphics-Statistics-Computing/dp/0387245448) (Wilkinson, 2005) in R. I will frequently make use of the graphing framework throughout the course and is worth learning.
 * [Visualizing Likert Data](http://jason.bryer.org/likert/) - An R package for visualizing [Likert scale](https://en.wikipedia.org/wiki/Likert_scale) data built on the `ggplot2` framework.
 * [Quick-R base graphics](http://www.statmethods.net/graphs/index.html) - Covers many of the visualizations using R's base graphics.

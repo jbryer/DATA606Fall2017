@@ -7,7 +7,7 @@ theme = "hugo-theme-docdock"
 themesdir = "themes/"
 
 [params]
-editURL = "https://github.com/jbryer/DATA606Fall2017/"
+editURL = "https://github.com/jbryer/DATA606Fall2017/content/"
 noHomeIcon = false # default is false
 noSearch = false # default is false
 showVisitedLinks = true # default is false

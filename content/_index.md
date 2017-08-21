@@ -8,7 +8,7 @@ date = "2017-04-24T18:36:24+02:00"
 # DATA606 - Fall 2017
 
 **Instructor:** Jason Bryer, Ph.D.  
-**Class Meetup:** Thursday 8:00pm to 9:00pm  
+**Class Meetup:** Wednesday 8:00pm to 9:00pm  
 **Office Hours:** By appointment  
 **Email:** <a href="mailto:jason.bryer@gmail.com?Subject=DATA606">jason.bryer@gmail.com</a>    
 **Phone:** 518-464-8594  
@@ -43,11 +43,11 @@ Probabilistic techniques are the foundation of many data science applications fr
 
 ## Grading
 
-* [Homework](/homework) (16%)
-* [Labs](/labs) (40%)
-* [Data Project](/project) (20%)
+* [Homework](/assignments/homework) (16%)
+* [Labs](/assignments/labs) (40%)
+* [Data Project](/assignments/project) (20%)
 * Final exam (18%)
-* [Meetup Presentation](/presentation) (5%)
+* [Meetup Presentation](/assignments/presentation) (5%)
 * Getting Aquainted (1%)
 
 ### Grade Distribution
@@ -69,9 +69,9 @@ This course is conducted entirely online. Each week, you will have various resou
 
 Meetup presentations will comprise the solution and presentation to the class of one of the suggested problems for study from the weekly materials (not the graded homework problems). Each student must present one problem throughout the semester. Problems are chosen by entering your name and problem in the Google Spreadsheet. Note there is a maximum of three presentatiosn per meetup and presentations should be no more than five minutes. Additionally, prepare your presentation so that the slides or document (I suggest using R Markdown) will be shared on the course website. Problems are assigned first come, first served, so any problem not already chosen by another student is available.
 
-[Presentation Signup Sheet](https://docs.google.com/spreadsheets/d/1geFxr-A0nlhmG36Bd2ftIdYdCZauJJ5xz-Ykq6qI6-M/edit?usp=sharing)
+[Presentation Signup Sheet](https://docs.google.com/spreadsheets/d/1l1BpfYpLNyQ1kBezqn4iQL1m527HCJDDY3wL1IeZRmM/edit?usp=sharing)
 
-Further details on each of these assignments will be available in Blackboard and/or [this Github repository](https://github.com/jbryer/DATA606Spring2017).
+Further details on each of these assignments will be available in Blackboard and/or [this Github repository](https://github.com/jbryer/DATA606Fall2017).
 
 ## Textbooks
 
@@ -79,11 +79,11 @@ Further details on each of these assignments will be available in Blackboard and
 
 Diez, D.M., Barr, C.D., & Çetinkaya-Rundel, M. (2015). *OpenIntro Statistics (3rd Ed).* 
 
-> This is an open source textbook and can be downloaded in PDF format [here](https://github.com/jbryer/IS606Spring2016/blob/master/Textbook/os3.pdf?raw=true), from the [OpenIntro](http://www.openintro.org/stat/textbook.php) website, or a printed copy can be ordered from [Amazon](https://www.openintro.org/redirect.php?go=amazon_os3&referrer=/stat/textbook.php).
+> This is an open source textbook and can be downloaded in PDF format [here](https://github.com/jbryer/DATA606Fall2017/blob/master/Textbook/os3.pdf?raw=true), from the [OpenIntro](http://www.openintro.org/stat/textbook.php) website, or a printed copy can be ordered from [Amazon](https://www.openintro.org/redirect.php?go=amazon_os3&referrer=/stat/textbook.php).
 
 Navarro, D. (2015, version 0.5). *Learning Statistics with R*
 
-> This is free textbook that supplements a lot of the material covered in Diez and Barr. We will use the chapter on Bayesian analysis. You can download a [PDF version](https://github.com/jbryer/IS606Spring2016/blob/master/Textbook/lsr-0.5.pdf?raw=true), or buy a print copy from Lulu through the [author's website](http://health.adelaide.edu.au/psychology/ccs/teaching/lsr/).
+> This is free textbook that supplements a lot of the material covered in Diez and Barr. We will use the chapter on Bayesian analysis. You can download a [PDF version](https://github.com/jbryer/DATA606Fall2017/blob/master/Textbook/lsr-0.5.pdf?raw=true), or buy a print copy from Lulu through the [author's website](http://health.adelaide.edu.au/psychology/ccs/teaching/lsr/).
 
 #### Recommended
 
@@ -105,14 +105,14 @@ Kruschke, J.K. (2014). *Doing Bayesian Data Analysis, Second Edition: A Tutorial
 
 #### Other Documents
 
-* [Probability Tables](https://github.com/jbryer/IS606Spring2016/blob/master/Textbook/os2_prob_tables.pdf?raw=true)
-* [Inference Guide](https://github.com/jbryer/IS606Spring2016/blob/master/Textbook/os2_extra_inference_guide.pdf?raw=true)
+* [Probability Tables](https://github.com/jbryer/DATA606Fall2017/blob/master/Textbook/os2_prob_tables.pdf?raw=true)
+* [Inference Guide](https://github.com/jbryer/DATA606Fall2017/blob/master/Textbook/os2_extra_inference_guide.pdf?raw=true)
 * [RStudio Cheat Sheets](https://www.rstudio.com/resources/cheatsheets/)
 * [Probability Cheat Sheet](http://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf)
 
 ## Contact
 
-Office Hours (cell phone or using GoToMeeting): By appointment. You’re encouraged to schedule an appointment, but you can try to call anytime.
+Office Hours (cell phone or using GoToMeeting): By appointment. You're encouraged to schedule an appointment, but you can try to call anytime.
 
 You are encouraged to ask us questions on the "Ask Your Instructor" forum on the course discussion board where other students will be able to benefit from your inquiries.
 
