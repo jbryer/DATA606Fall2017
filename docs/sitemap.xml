@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>/post/</loc>
+    <lastmod>2017-08-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/course-overview/</loc>
   </url>
   
@@ -125,13 +130,13 @@
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/tags/annoucement/</loc>
+    <lastmod>2017-08-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2017-08-25T00:00:00+00:00</lastmod>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   

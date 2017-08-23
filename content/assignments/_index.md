@@ -2,7 +2,7 @@
 title = "Assignments"
 description = ""
 weight = 2
-alwaysopen = true
+alwaysopen = false
 +++
 
 
