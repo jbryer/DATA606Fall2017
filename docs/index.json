@@ -63,6 +63,13 @@
 	"content": "The solutions to the practice problems are at the end of the book and do not need to be handed in. Graded assignments should be typed (preferably using R Markdown) or neatly hand written and scanned. Data for the homework assignments, and for within the chapters too, can be downloaded here.\n Chapter 1 - Introduction to Data  Practice: 1.7 (available in R using the data(iris) command), 1.9, 1.23, 1.33, 1.55, 1.69 Graded: 1.8, 1.10, 1.28, 1.36, 1.48, 1.50, 1.56, 1.70  Chapter 2 - Probability  Practice: 2.5, 2.7, 2.19, 2.29, 2.43 Graded: 2.6, 2.8, 2.20, 2.30, 2.38, 2.44  Chapter 3 - Distributions of Random Variables  Practice: 3.1 (see normalPlot), 3.3, 3.17 (use qqnormsim from lab 3), 3.21, 3.37, 3.41 Graded: 3.2 (see normalPlot), 3.4, 3.18 (use qqnormsim from lab 3), 3.22, 3.38, 3.42  Chapter 4 Foundations for Inference  Practice: 4.3, 4.13, 4.23, 4.25, 4.39, 4.47 Graded: 4.4, 4.14, 4.24, 4.26, 4.34, 4.40, 4.48  Chapter 5 - Inference for Numerical Data  Practice: 5.5, 5.13, 5.19, 5.31, 5.45 Graded: 5.6, 5.14, 5.20, 5.32, 5.48  Chapter 6 - Inference for Categorical Data  Practice: 6.5, 6.11, 6.27, 6.43, 6.47 Graded: 6.6, 6.12, 6.20, 6.28, 6.44, 6.48  Chapter 7 - Introduction to Linear Regression  Practice: 7.23, 7.25, 7.29, 7.39 Graded: 7.24, 7.26, 7.30, 7.40  Chapter 8 - Multiple and Logistic Regression  Practice: 8.1, 8.3, 8.7, 8.15, 8.17 Graded: 8.2, 8.4, 8.8, 8.16, 8.18  Navarro Chapter 17 - Bayesian Analysis  Graded: TBD   "
 },
 {
+	"uri": "/course-overview/textbooks/",
+	"title": "Textbooks",
+	"tags": [],
+	"description": "",
+	"content": " Required Diez, D.M., Barr, C.D., \u0026amp; Çetinkaya-Rundel, M. (2015). OpenIntro Statistics (3rd Ed).\n This is an open source textbook and can be downloaded in PDF format here, from the OpenIntro website, or a printed copy can be ordered from Amazon.\n Navarro, D. (2015, version 0.5). Learning Statistics with R\n This is free textbook that supplements a lot of the material covered in Diez and Barr. We will use the chapter on Bayesian analysis. You can download a PDF version, or buy a print copy from Lulu through the author\u0026rsquo;s website.\n Recommended Wickham, H., \u0026amp; Grolemund, G. (2016) R for Data Science. O\u0026rsquo;Reilly.\n Most of this books is available freely online at r4ds.had.co.nz/ but can be purchased from Amazon.\n Kabacoff, R.I. (2011). R in Action. Manning Publications.\n You can find a lot of the material in R in Action on Kabacoff\u0026rsquo;s website, statmethods.net. You can receive 38% off using the ria38 promo code when ordering from here.\n Wickham, H. Advanced R. Baca Raton, FL: Taylor \u0026amp; Francis Group.\n Most of this book is available freely online at adv-r.had.co.nz but can be purchased from Amazon.\n Kruschke, J.K. (2014). Doing Bayesian Data Analysis, Second Edition: A Tutorial with R, JAGS, and Stan (2nd Ed). London: Academic Press.\n This book can be purchased from Amazon, but also check out the author\u0026rsquo;s webiste (doingbayesiandataanalysis.blogspot.com/) for additional resources.\n "
+},
+{
 	"uri": "/chapters/chapter4/",
 	"title": "Chapter 4",
 	"tags": [],
@@ -77,11 +84,25 @@
 	"content": "These mini projects will have you explore statistical topics using R. You can use the startLab function in the DATA606 package to get started, or copy the templates from the links below. Please submit a PDF (preferred) or HTML file along with your Rmarkdown file. Be sure to answer all questions in lab, not just the on your own section. Labs can be submitted on Blackboard.\nIntroduction to R and RStudio (Template) Introduction to Data (Template) Probability (Template) Distributions of Random Variables (Template) Foundations for Statistical Inference Sampling Distributions (Template) Confidence Levels (Template)  Inference for Numerical Data (Template) Inference for Categorical Data (Template) Introduction to Linear Regression (Template) Multiple Linear Regerssion (Template)  "
 },
 {
+	"uri": "/course-overview/software/",
+	"title": "Software",
+	"tags": [],
+	"description": "",
+	"content": " We will make use of R, an open source statistics program and language. Be sure to install R and RStudio on your own computers within the first few days of the class.\n R - Windows or Mac RStudio - Download Windows or Mac version from here LaTeX - Windows use MiKTeX or Mac use BasicTeX (it is best to use Safari to download this file as Chrome or Firefox will often fail)  If using Windows, you also need to download and install these:\n RTools ActivePerl  Once everything is installed, execute the following command in RStudio to install the packages we will use for this class (you can copy-and-paste):\ninstall.packages(c('openintro','OIdata','devtools','ggplot2','psych','reshape2', 'knitr','markdown','shiny')) devtools::install_github(\u0026quot;jbryer/DATA606\u0026quot;)  The DATA606 R Package Many of the course resouces are available in the DATA606 R package. Here are some command to get started:\nlibrary('DATA606') # Load the package vignette(package='DATA606') # Lists vignettes in the DATA606 package vignette('os3') # Loads a PDF of the OpenIntro Statistics book data(package='DATA606') # Lists data available in the package getLabs() # Returns a list of the available labs viewLab('Lab0') # Opens Lab0 in the default web browser startLab('Lab0') # Starts Lab0 (copies to getwd()), opens the Rmd file shiny_demo() # Lists available Shiny apps  "
+},
+{
 	"uri": "/chapters/chapter5/",
 	"title": "Chapter 5",
 	"tags": [],
 	"description": "",
 	"content": " Chapter 5 Assignments Homework OpenIntro Statistics\n Practice: Graded:  Lab The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.info()['user']). If this is incorrect, then either provide the file-prefix parameter to startLab, or rename the file after it has been copied.\nDATA606::startLab('Lab5')  Readings  OpenIntro Statistics slides  Videos "
+},
+{
+	"uri": "/course-overview/links/",
+	"title": "Links",
+	"tags": [],
+	"description": "",
+	"content": " These are some useful resources on the web for learning R. Feel free to suggest other resources by clicking the \u0026ldquo;Edit page\u0026rdquo; button in the top right.\nLearning R  R for Data Science. Book by Garrett Grolemund and Hadley Wickham Quick-R. Kabakoff\u0026rsquo;s website. Great reference along with his book, R in Action. O\u0026rsquo;Reilly Try R. Great tutorial on R where you can try R commands directly from the web browser. R Reference Card Video Overview of RStudio R-Bloggers Journal of Statistical Software The R Journal An Introduction to Statistical Learning with Applications in R  Learning R Markdown  Video on RMarkdown by RStudio - This 26 minute video talks about some updates to RMarkdown. Markdown Basics. Markdown is a way of formatting plain text documents mostly for the web. However, it has become for other writing tasks too. It has become popular because it focusses on writing and not formatting. The formatting is taken care later. The Markdown Basics provides a nice introduction to Markdown. The R Markdown Website has a nice introduction on how Markdown is extended to allow for the inclusion of R code and output. Video Introduction to R Markdown. This short video (under 4 minutes) was recorded with an older version, so not all of the features and dialog boxes will look the same, but may be helpful.  "
 },
 {
 	"uri": "/assignments/project/",
@@ -103,6 +124,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Chapter 6 Assignments Homework OpenIntro Statistics\n Practice: Graded:  Lab The labs are available in the DATA606 R package. To start the first lab, use the startLab function. This will copy the lab to your current working directory and rename the file according to your computer username (as returend by Sys.info()['user']). If this is incorrect, then either provide the file-prefix parameter to startLab, or rename the file after it has been copied.\nDATA606::startLab('Lab6')  Readings  OpenIntro Statistics slides  Videos "
+},
+{
+	"uri": "/course-overview/mathjax/",
+	"title": "Math Equations",
+	"tags": [],
+	"description": "",
+	"content": "  Occasionally you will need to type equations in homework and labs. R Markdown supports LaTeX style equations using the MathJax javascript library. I do not expect you to learn LaTeX for this course. Instead, I recommend using the free application [Daum Equation Editor](). It availabe online, as a Google Chrome Extension, or as a standalone Mac Application.\nCreating Equations with Daum Equation Editor Occasionally you will need to type equations in homework and labs. R Markdown supports LaTeX style equations using the MathJax javascript library. I do not expect you to learn LaTeX for this course. Instead, I recommend using the free application [Daum Equation Editor](). It availabe online, as a Google Chrome Extension, or as a standalone Mac Application. With the editor, you can enter quations using menus.\nOnce done, copy and paste the LaTeX code at teh bottom into your R Markdown file between two dollar signs (i.e. $), and the quation will be rendered by the web browser.\n$$ f\\left( x|\\mu ,\\sigma \\right) =\\frac { 1 }{ \\sigma \\sqrt { 2\\pi } } { e }^{ -\\frac { { \\left( x-\\mu \\right) }^{ 2 } }{ { 2\\sigma }^{ 2 } } } $$\n"
 },
 {
 	"uri": "/chapters/chapter7/",

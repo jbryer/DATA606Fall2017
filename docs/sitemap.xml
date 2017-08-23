@@ -42,6 +42,10 @@
   </url>
   
   <url>
+    <loc>/course-overview/textbooks/</loc>
+  </url>
+  
+  <url>
     <loc>/chapters/chapter4/</loc>
     <lastmod>2017-04-29T18:36:24+02:00</lastmod>
   </url>
@@ -51,8 +55,16 @@
   </url>
   
   <url>
+    <loc>/course-overview/software/</loc>
+  </url>
+  
+  <url>
     <loc>/chapters/chapter5/</loc>
     <lastmod>2017-04-29T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/course-overview/links/</loc>
   </url>
   
   <url>
@@ -66,6 +78,10 @@
   <url>
     <loc>/chapters/chapter6/</loc>
     <lastmod>2017-04-29T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/course-overview/mathjax/</loc>
   </url>
   
   <url>
