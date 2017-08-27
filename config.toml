@@ -27,7 +27,12 @@ url = "https://github.com/jbryer/DATA606Fall2017"
 weight = 10
 
 [[menu.shortcuts]]
-name = "<i class='fa fa-camera'></i> Blackboard"
+name = "<i class='fa fa-link'></i> Blackboard"
 url = "https://bbhosted.cuny.edu/webapps/login"
 weight = 11
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-graduation-cap'></i> CUNY SPS"
+url = "https://sps.cuny.edu/academics/graduate/master-science-data-analytics-ms"
+weight = 12
 
