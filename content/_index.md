@@ -67,7 +67,7 @@ Failure                                    |      F       |   < 70    |  0   |
 
 This course is conducted entirely online. Each week, you will have various resources made available, including weekly readings from the textbooks and occasionally additional readings provided by the instructor. Most weeks will have homework assignments to be submitted. There will also be a presentation required and a forum post introduction required. You are expected to complete all assignments by their due dates.
 
-Meetup presentations will comprise the solution and presentation to the class of one of the suggested problems for study from the weekly materials (not the graded homework problems). Each student must present one problem throughout the semester. Problems are chosen by entering your name and problem in the Google Spreadsheet. Note there is a maximum of three presentatiosn per meetup and presentations should be no more than five minutes. Additionally, prepare your presentation so that the slides or document (I suggest using R Markdown) will be shared on the course website. Problems are assigned first come, first served, so any problem not already chosen by another student is available.
+Meetup presentations will comprise the solution and presentation to the class of one of the suggested problems for study from the weekly materials (not the graded homework problems). Each student must present one problem throughout the semester. Problems are chosen by entering your name and problem in the Google Spreadsheet. Note there is a maximum of three presentations per meetup and presentations should be no more than five minutes. Additionally, prepare your presentation so that the slides or document (I suggest using R Markdown) will be shared on the course website. Problems are assigned first come, first served, so any problem not already chosen by another student is available.
 
 [Presentation Signup Sheet](https://docs.google.com/spreadsheets/d/1l1BpfYpLNyQ1kBezqn4iQL1m527HCJDDY3wL1IeZRmM/edit?usp=sharing)
 
@@ -114,7 +114,7 @@ Kruschke, J.K. (2014). *Doing Bayesian Data Analysis, Second Edition: A Tutorial
 
 Office Hours (cell phone or using GoToMeeting): By appointment. You're encouraged to schedule an appointment, but you can try to call anytime.
 
-You are encouraged to ask us questions on the "Ask Your Instructor" forum on the course discussion board where other students will be able to benefit from your inquiries.
+You are encouraged to ask us questions on the ["Github Issues"](https://github.com/jbryer/DATA606Fall2017/issues) feature on the course repository where other students will be able to benefit from your inquiries. If you wish to ask a question in private, you can email the instructor directly.
 
 For the most part, you can expect me to respond to questions by email within 24 to 48 hours. If you do not hear back from me within 48 hours of sending an email, please resend your message.
 
