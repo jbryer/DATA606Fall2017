@@ -12,8 +12,6 @@ blogdown::install_theme(theme = 'vjeantet/hugo-theme-docdock')
 blogdown::serve_site()
 
 # Build site for Github pages
-blogdown::build_site(); file.copy('public', 'docs', recursive = TRUE, overwrite = TRUE); unlink('public', recursive = TRUE);
-
 build_mysite <- function(...) {
 	blogdown::build_site()
 	tocopy <- c(list.files("public", full.names = TRUE), list.dirs("public", full.names = TRUE))
