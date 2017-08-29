@@ -14,4 +14,4 @@ blogdown::serve_site()
 # Build site for Github pages
 blogdown::build_site(); file.copy('public', 'docs', recursive = TRUE, overwrite = TRUE);
 
-#unlink("docs", recursive=TRUE); file.rename('public', 'docs')
+unlink("docs", recursive=TRUE); file.rename('public', 'docs')
