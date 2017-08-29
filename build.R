@@ -12,7 +12,21 @@ blogdown::install_theme(theme = 'vjeantet/hugo-theme-docdock')
 blogdown::serve_site()
 
 # Build site for Github pages
-blogdown::build_site(method = 'html_encoded'); file.copy('public', 'docs', recursive = TRUE, overwrite = TRUE);
+blogdown::build_site(); file.copy('public', 'docs', recursive = TRUE, overwrite = TRUE); unlink('public', recursive = TRUE);
+
+build_mysite <- function(...) {
+	blogdown::build_site()
+	tocopy <- c(list.files("public", full.names = TRUE), list.dirs("public", full.names = TRUE))
+	copied <- file.copy(tocopy, 'docs', recursive = TRUE, overwrite = TRUE)
+	if(!all(copied)) {
+		warning(paste0("The following files or directories were not copied: ", 
+					   paste0(tocopy[!copied], collapse = ', ')))
+	}
+	unlink('public', recursive = TRUE)
+}
+
+build_mysite()
 
 # Sometimes the file.copy doesn't work, then try this (it will replace the entire directory)
-unlink("docs", recursive=TRUE); file.rename('public', 'docs')
+# unlink("docs", recursive=TRUE); file.rename('public', 'docs')
+
