@@ -20,11 +20,16 @@ home = [ "HTML", "RSS", "JSON"]
 
 
 [[menu.shortcuts]]
-pre = "<h3>More</h3>"
-name = "<i class='fa fa-github'></i> Github repo"
+pre = "<h3>Links</h3>"
+name = "<i class='fa fa-github'></i> Ask a question"
 identifier = "ds"
-url = "https://github.com/jbryer/DATA606Fall2017"
-weight = 10
+url = "https://github.com/jbryer/DATA606Fall2017/issues"
+weight = 9
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-link'></i> Blackboard"
+url = "https://bbhosted.cuny.edu/webapps/login"
+weight = 11
 
 [[menu.shortcuts]]
 name = "<i class='fa fa-link'></i> Blackboard"
