@@ -27,12 +27,12 @@ url = "https://github.com/jbryer/DATA606Fall2017/issues"
 weight = 9
 
 [[menu.shortcuts]]
-name = "<i class='fa fa-link'></i> Blackboard"
-url = "https://bbhosted.cuny.edu/webapps/login"
+name = "<i class='fa fa-github'></i> Github Repo"
+url = "https://github.com/jbryer/DATA606Fall2017"
 weight = 11
 
 [[menu.shortcuts]]
-name = "<i class='fa fa-link'></i> Blackboard"
+name = "<i class='fa fa-pencil'></i> Blackboard"
 url = "https://bbhosted.cuny.edu/webapps/login"
 weight = 11
 
