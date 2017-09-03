@@ -4,9 +4,9 @@ if(!require(blogdown)) {
 }
 
 # Setup (run only once per class)
-blogdown::install_hugo()
-blogdown::new_site()
-blogdown::install_theme(theme = 'vjeantet/hugo-theme-docdock')
+# blogdown::install_hugo()
+# blogdown::new_site()
+# blogdown::install_theme(theme = 'vjeantet/hugo-theme-docdock')
 
 # Serve site
 blogdown::serve_site()
