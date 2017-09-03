@@ -5,11 +5,11 @@ weight = 3
 +++
 
 
-The solutions to the practice problems are at the end of the book and do not need to be handed in. Graded assignments should be typed (preferably using R Markdown) or neatly hand written and scanned. Data for the homework assignments, and for within the chapters too, can be downloaded [here](https://github.com/jbryer/DATA606Spring2017/tree/master/Data/Data%20from%20openintro.org).
+The solutions to the practice problems are at the end of the book and do not need to be handed in. Graded assignments should be typed (preferably using R Markdown) or neatly hand written and scanned. Data for the homework assignments, and for within the chapters too, can be downloaded [here](https://github.com/jbryer/DATA606Fall2017/tree/master/Data/Data%20from%20openintro.org).
 
 * Chapter 1 - Introduction to Data
 	* Practice: 1.7 (available in R using the `data(iris)` command), 1.9, 1.23, 1.33, 1.55, 1.69
-	* Graded: 1.8, 1.10, 1.28, 1.36, 1.48, 1.50, 1.56, 1.70
+	* Graded: 1.8, 1.10, 1.28, 1.36, 1.48, 1.50, 1.56, 1.70 (use the `library(openintro); data(heartTr)` to load the data)
 * Chapter 2 - Probability
 	* Practice: 2.5, 2.7, 2.19, 2.29, 2.43
 	* Graded: 2.6, 2.8, 2.20, 2.30, 2.38, 2.44

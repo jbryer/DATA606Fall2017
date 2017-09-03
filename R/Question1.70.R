@@ -1,0 +1,6 @@
+heart <- read.csv('https://raw.githubusercontent.com/jbryer/DATA606Fall2017/master/Data/Data%20from%20openintro.org/Ch%201%20Exercise%20Data/heartTr.csv')
+library(openintro)
+data(heartTr)
+table(heartTr$survived)
+table(heartTr$transplant)
+table(heartTr$survived, heartTr$transplant)
