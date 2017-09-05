@@ -18,15 +18,15 @@ Access Code: 890-853-557
 
 Date                       | Topic                           | Resources |
 :--------------------------|:--------------------------------|:----------|
-Tuesday, Aug 29, 8:00 pm   | Introduction to Data            | [Slides](/slides/2017-08-29-Intro_to_Course.html), [Video](https://youtu.be/TcjFb0stLSw)
-Wednesday, Sep 6, 8:00 pm  | Probability                     | 
-Wednesday, Sep 13, 8:00 pm | Distributions Part I            | 
-Wednesday, Sep 20, 8:00 pm | Distributions Part II           | 
-Wednesday, Sep 27, 8:00 pm | Foundation for Inference        | 
-Wednesday, Oct 4, 8:00 pm  | Foundation for Inference cont.  | 
-Wednesday, Oct 11, 8:00 pm | Inference for Numerical Data    | 
-Wednesday, Oct 18, 8:00pm  | Inference for Categorical Data  | 
-Wednesday, Oct 25, 8:00pm  | TBD                             |
+Tuesday, Aug 29, 8:00 pm   | Intro to Course                 | [Slides](/slides/2017-08-29-Intro_to_Course.html), [Video](https://youtu.be/TcjFb0stLSw)
+Wednesday, Sep 6, 8:00 pm  | Intro to Data                   | 
+Wednesday, Sep 13, 8:00 pm | Probability                     | 
+Wednesday, Sep 20, 8:00 pm | Distributions Part I            | 
+Wednesday, Sep 27, 8:00 pm | Distributions Part II           | 
+Wednesday, Oct 4, 8:00 pm  | Foundation for Inference        | 
+Wednesday, Oct 11, 8:00 pm | Foundation for Inference cont.  | 
+Wednesday, Oct 18, 8:00pm  | Inference for Numerical Data    | 
+Wednesday, Oct 25, 8:00pm  | Inference for Categorical Data  |
 Wednesday, Nov 1, 8:00 pm  | Linear Regression               | 
 Wednesday, Nov 8, 8:00 pm  | Linear Regression cont.         | 
 Wednesday, Nov 15, 8:00 pm | Multiple & Logistic Regression  | 

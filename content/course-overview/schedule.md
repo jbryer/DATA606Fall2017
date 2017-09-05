@@ -13,12 +13,12 @@ weight = 1
 
 Start  | Due Date | Chapter | Topic                              
 :------|:---------|:-------:|:-----------------------------------
-Aut-25 | Sep-3    | 1       | [Intro to Data](/chapters/chapter1)
-Sep-4  | Sep-10   | 2       | [Probability](/chapters/chapter2)
-Sep-11 | Sep-24   | 3       | [Distributions](/chapters/chapter3)
-Sep-25 | Oct-8    | 4       | [Foundation for Inference](/chapters/chapter4)
-Oct-9  | Oct-29   | 5       | [Inference for Numerical Data](/chapters/chapter5)
-Oct-9  | Oct-29   | 6       | [Inference for Categorical Data](/chapters/chapter6)
+Aut-25 | Sep-6    | 1       | [Intro to Data](/chapters/chapter1)
+Sep-7  | Sep-17   | 2       | [Probability](/chapters/chapter2)
+Sep-18 | Oct-1    | 3       | [Distributions](/chapters/chapter3)
+Oct-2  | Oct-15   | 4       | [Foundation for Inference](/chapters/chapter4)
+Oct-16 | Oct-29   | 5       | [Inference for Numerical Data](/chapters/chapter5)
+Oct-16 | Oct-29   | 6       | [Inference for Categorical Data](/chapters/chapter6)
 Oct-30 | Nov-12   | 7       | [Linear Regression](/chapters/chapter7)
 Nov-13 | Nov-26   | 8       | [Multiple & Logistic Regression](/chapters/chapter8)
 Nov-27 | Dec-13   | Navarro | [Introduction to Bayesian Analysis](/chapters/chapter9)
