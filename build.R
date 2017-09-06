@@ -15,7 +15,7 @@ blogdown::serve_site()
 build_mysite <- function(...) {
 	blogdown::build_site()
 	tocopy <- c(list.files("public", full.names = TRUE), list.dirs("public", full.names = TRUE))
-	copied <- file.copy(tocopy, 'docs', recursive = TRUE, overwrite = TRUE)
+	copied <- file.copy(tocopy, 'docs', recursive = TRUE, overwrite = TRUE, copy.date = TRUE)
 	if(!all(copied)) {
 		warning(paste0("The following files or directories were not copied: ", 
 					   paste0(tocopy[!copied], collapse = ', ')))
