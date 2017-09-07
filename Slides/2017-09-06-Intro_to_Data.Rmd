@@ -31,8 +31,14 @@ data(legosets)
 	* Links added to left side of data606.net website
 	* Open issues: https://github.com/jbryer/DATA606Fall2017/issues
 	* Closed issues (i.e. answered): https://github.com/jbryer/DATA606Fall2017/issues?q=is%3Aissue+is%3Aclosed
+* Homework data is located here: https://github.com/jbryer/DATA606Fall2017/tree/master/Data/Data%20from%20openintro.org  
+  Alternatively, most data is in the `openintro` R package.
 
+## Presentations
 
+* Nathan Cooper (1.23)	http://rpubs.com/njcooper137/304919
+* David Quarshie (1.33)	http://rpubs.com/dquarshie/305031
+* Sarah Wigodsky (1.55)	http://rpubs.com/sew/303555
 
 ## Sampling vs. Census
 

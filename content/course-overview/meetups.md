@@ -18,8 +18,8 @@ Access Code: 890-853-557
 
 Date                       | Topic                           | Resources |
 :--------------------------|:--------------------------------|:----------|
-Tuesday, Aug 29, 8:00 pm   | Intro to Course                 | [Slides](/slides/2017-08-29-Intro_to_Course.html), [Video](https://youtu.be/TcjFb0stLSw)
-Wednesday, Sep 6, 8:00 pm  | Intro to Data                   | [Slides](/slides/2017-09-06-Intro_to_Data.html)
+Tuesday, Aug 29, 8:00 pm   | Intro to Course                 | [Slides](/slides/2017-08-29-Intro_to_Course.html), [Video](https://youtu.be/TcjFb0stLSw), [R](https://github.com/jbryer/DATA606Fall2017/blob/master/R/2018-08-29.R)
+Wednesday, Sep 6, 8:00 pm  | Intro to Data                   | [Slides](/slides/2017-09-06-Intro_to_Data.html), [Video](https://youtu.be/CINMb5gKJqo), [R for HM 1.70](https://github.com/jbryer/DATA606Fall2017/blob/master/R/Question1.70.R)
 Wednesday, Sep 13, 8:00 pm | Probability                     | 
 Wednesday, Sep 20, 8:00 pm | Distributions Part I            | 
 Wednesday, Sep 27, 8:00 pm | Distributions Part II           | 

@@ -24,8 +24,13 @@ n.treat <- 69
 n.control <- 34
 n.samples <- 100
 
+# Verify these are the same
+n.alive + n.dead
+n.treat + n.control
+
 cards <- c(rep('alive', n.alive), rep('dead', n.dead))
 cards
+length(cards)
 
 set.seed(2112) # To reproduce exact results
 
