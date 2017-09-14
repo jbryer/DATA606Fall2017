@@ -25,12 +25,13 @@ library(ggplot2)
 
 * Homework for chapters 1 and 2 have been graded. Answer keys will be sent soon.
 * Discussion forums
+* Please double check the chapters on the presentation signup sheet, they were adjusted to the new schedule.
 
 ## Presentations
 
 * Yuen Chun Wong (2.37) http://rpubs.com/nyjon2k/307414
 * Alvaro Bueno (2.7) http://rpubs.com/alvarobueno/presentation2_7
-* Joshua Sturm
+* Joshua Sturm (3.22)
 
 ## Probability
 
