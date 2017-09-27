@@ -21,8 +21,12 @@ home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
 pre = "<h3>Links</h3>"
+name = "<i class='fa fa-slack'></i> Slack"
+url = "https://data606fall2017.slack.com/messages"
+weight = 8
+
+[[menu.shortcuts]]
 name = "<i class='fa fa-question-circle'></i> Ask a question"
-identifier = "ds"
 url = "https://github.com/jbryer/DATA606Fall2017/issues"
 weight = 9
 

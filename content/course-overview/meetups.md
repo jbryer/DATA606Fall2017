@@ -22,7 +22,7 @@ Tuesday, Aug 29, 8:00 pm   | Intro to Course                 | [Slides](/slides/
 Wednesday, Sep 6, 8:00 pm  | Intro to Data                   | [Slides](/slides/2017-09-06-Intro_to_Data.html), [Video](https://youtu.be/CINMb5gKJqo), [R for HW 1.70](https://github.com/jbryer/DATA606Fall2017/blob/master/R/Question1.70.R)
 Wednesday, Sep 13, 8:00 pm | Probability                     | [Slides](/slides/2017-09-13-Probability.html), [Video](https://youtu.be/8_eORwA-JAY)
 Wednesday, Sep 20, 8:00 pm | Distributions Part I            | [Slides](/slides/2017-09-30-Distributions.html), [Video](https://youtu.be/blKdBwIVXC8)
-Wednesday, Sep 27, 8:00 pm | Distributions Part II           | 
+Wednesday, Sep 27, 8:00 pm | Distributions Part II           | [Slides](/slides/2017-09-27-Distributions2.html)
 Wednesday, Oct 4, 8:00 pm  | Foundation for Inference        | 
 Wednesday, Oct 11, 8:00 pm | Foundation for Inference cont.  | 
 Wednesday, Oct 18, 8:00pm  | Inference for Numerical Data    | 

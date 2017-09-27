@@ -7,7 +7,7 @@
     <meta name="description" content="">
 
 
-    <title>Presentation :: DATA606 - Fall 2017</title>
+    <title>Getting Started with R :: DATA606 - Fall 2017</title>
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
     <link href="/css/nucleus.css" rel="stylesheet">
     <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -41,7 +41,7 @@
 
 </script>
   </head>
-  <body class="" data-url="/assignments/presentation/">
+  <body class="" data-url="/post/2017-08-25-getting-started-with-r.utf8/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -90,7 +90,7 @@
   
     
     <li data-nav-id="/post/" class="dd-item 
-        
+        parent
         
         
         ">
@@ -101,7 +101,7 @@
         
 
           
-            <i class="fa fa-angle-right fa-lg category-icon"></i>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
           
 
         
@@ -127,6 +127,46 @@
      
       ">
         <a href="/post/2017-08-25-getting-started-with-r/">
+        <span>Getting Started with R</span> 
+        <i style="color:grey" class="fa fa-circle-thin read-icon"></i>
+        </a></li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/post/2017-08-25-getting-started-with-r.knit/" class="dd-item
+     
+      ">
+        <a href="/post/2017-08-25-getting-started-with-r.knit/">
+        <span>Getting Started with R</span> 
+        <i style="color:grey" class="fa fa-circle-thin read-icon"></i>
+        </a></li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/post/2017-08-25-getting-started-with-r.utf8/" class="dd-item
+     active
+      ">
+        <a href="/post/2017-08-25-getting-started-with-r.utf8/">
         <span>Getting Started with R</span> 
         <i style="color:grey" class="fa fa-circle-thin read-icon"></i>
         </a></li>
@@ -332,7 +372,7 @@
   
     
     <li data-nav-id="/assignments/" class="dd-item 
-        parent
+        
         
         
         ">
@@ -343,7 +383,7 @@
         
 
           
-            <i class="fa fa-angle-down fa-lg category-icon"></i>
+            <i class="fa fa-angle-right fa-lg category-icon"></i>
           
 
         
@@ -366,7 +406,7 @@
   
     
       <li data-nav-id="/assignments/presentation/" class="dd-item
-     active
+     
       ">
         <a href="/assignments/presentation/">
         <span>Presentation</span> 
@@ -760,7 +800,7 @@
               
               
             <div id="top-github-link">
-              <a class="github-link" href="https://github.com/jbryer/DATA606Fall2017/tree/master/content/assignments/presentation.md" target="blank">
+              <a class="github-link" href="https://github.com/jbryer/DATA606Fall2017/tree/master/content/post/2017-08-25-getting-started-with-r.utf8.md" target="blank">
                 <i class="fa fa-code-fork"></i>
                 Edit page
               </a>
@@ -784,7 +824,7 @@
 
 
 
- <a href='/'>DATA606 - Fall 2017</a> > <a href='/assignments/'>Assignments</a> > Presentation
+ <a href='/'>DATA606 - Fall 2017</a> > <a href='/post/'>Announcements</a> > Getting Started with R
 
  
 
@@ -802,21 +842,51 @@
           </div>
         
         
+          <div id="tags">
+            
+              <a class="label label-default" href="//tags/r-markdown">R Markdown</a>
+            
+              <a class="label label-default" href="//tags/working-directories">working directories</a>
+            
+          </div>
+        
         <div id="body-inner">
           
-            <h1>Presentation</h1>
+            <h1>Getting Started with R</h1>
           
 
 
 
 
-<p>You are responsible for presenting one practice homework problem during the semester. Please sign up as-soon-as possible as there are only three slots per week. Try to keep each presentation to five minutes or less. Sign-up on this Google Spreadsheet: <a href="https://docs.google.com/spreadsheets/d/1l1BpfYpLNyQ1kBezqn4iQL1m527HCJDDY3wL1IeZRmM/edit#gid=0">https://docs.google.com/spreadsheets/d/1l1BpfYpLNyQ1kBezqn4iQL1m527HCJDDY3wL1IeZRmM/edit#gid=0</a></p>
+<p>To get started with the labs, you will need to install R and other supporting applications. Links to download all the software is on the <a href="/software">Software</a> page at <a href="http://data606.net/software">http://data606.net/software</a> which is available on the <code>Misc</code> menu. Once you are in RStudio, you will need to install a number of R packages using the following two commands:</p>
 
-<p>GoToMeeting Connection Information:</p>
+<pre><code>install.packages(c('openintro','OIdata','devtools','ggplot2','psych','reshape2',
+				   'knitr','markdown','shiny'))
+devtools::install_github(&quot;jbryer/DATA606&quot;)
+</code></pre>
 
-<p><a href="https://global.gotomeeting.com/join/890853557">https://global.gotomeeting.com/join/890853557</a><br />
-You can also dial in using your phone: (646) 749-3122<br />
-Access Code: 890-853-557</p>
+<p>Note that this course used to be listed as IS 606, hence the different package name. The <code>library</code> command will load the package and the <code>startLab</code> function will:</p>
+
+<ol>
+<li>Create a folder called <code>Lab0</code> in the current working directory.</li>
+<li>Open the the RMarkdown file (note that the name should have your login name).</li>
+</ol>
+
+<pre><code>library(DATA606)
+startLab('Lab0')
+</code></pre>
+
+<p>Note the <code>Lab0</code> directory has been created.</p>
+
+<p><img src="/figures/RStudio-screen-files.png" alt="RStudio Files Panel" /></p>
+
+<p>If you click <code>Lab0</code> that will take you into that folder where you will see the RMardkown file (<code>.Rmd</code> extension) along with all the supporting files. Under the <code>More</code> menu there is an option to <code>Set As Working Directory</code>, you will want to do this before working in the RMarkdown file.</p>
+
+<p><img src="/figures/RStudio-screen-setwd.png" alt="Setting Working Directory" /></p>
+
+<p>The console pane will always tell you what your current working directory is. Clicking the arrow icon will open that folder in the <code>Files</code> tab on the right. R will look for files and directories that do not have absolute paths (i.e. starting with <code>C:</code> on windows or <code>/</code> on Linux and Macs) relative to the working directory.</p>
+
+<p><img src="/figures/RStudio-screen-wd.png" alt="Working Directory" /></p>
 
 
 <footer class=" footline" >
@@ -857,8 +927,93 @@ Access Code: 890-853-557</p>
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
                         
                         
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -900,159 +1055,10 @@ Access Code: 890-853-557</p>
             
         
                     
-            
-        
-                    
                         
             
             
                 
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
                     
                 
                 
@@ -1209,6 +1215,22 @@ Access Code: 890-853-557</p>
             
         
                     
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
                         
             
             
@@ -1273,6 +1295,86 @@ Access Code: 890-853-557</p>
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -1283,10 +1385,10 @@ Access Code: 890-853-557</p>
 
 
         
-            <a class="nav nav-prev" href="/assignments/" title="Assignments"> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/post/2017-08-25-getting-started-with-r.knit/" title="Getting Started with R"> <i class="fa fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="/assignments/homework/" title="Homework" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/post/2017-08-24-welcome-to-data606/" title="Welcome to DATA606!" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 
