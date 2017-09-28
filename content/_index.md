@@ -11,7 +11,6 @@ date = "2017-08-22"
 **Class Meetup:** Wednesday 8:00pm to 9:00pm  
 **Office Hours:** By appointment  
 **Email:** <a href="mailto:jason.bryer@gmail.com?Subject=DATA606">jason.bryer@gmail.com</a>    
-**Phone:** 518-464-8594  
 
 
 ## Course Description
