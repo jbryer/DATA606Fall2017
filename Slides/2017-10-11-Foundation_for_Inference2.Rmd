@@ -68,7 +68,7 @@ PlotDist <- function(alpha, from = -5, to = 5, n = 1000, filename = NULL,
 
 * Bethany Poulin (4.13) http://rpubs.com/bpoulin-CUNY/317365
 * Jagruti Solao (4.39)	
-* Natalie Mollaghan (4.40)
+* Natalie Mollaghan (4.3)
 
 ## Type I and II Errors
 
