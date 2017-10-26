@@ -26,8 +26,8 @@ Wednesday, Sep 27, 8:00 pm | Distributions Part II           | [Slides](/slides/
 Wednesday, Oct 4, 8:00 pm  | Foundation for Inference        | [Slides](/slides/2017-10-04-Foundation_for_Inference.html), [Video](https://youtu.be/tdD53efIyi4) 
 Wednesday, Oct 11, 8:00 pm | Foundation for Inference cont.  | [Slides](/slides/2017-10-11-Foundation_for_Inference2.html), [Video](https://youtu.be/EmjhViTU1Xs)
 October 18                 | NO MEETUP                       | 
-Wednesday, Oct 25, 8:00pm  | Inference for Numerical Data    |
-                           | Inference for Categorical Data  |
+Wednesday, Oct 25, 8:00pm  | Inference for Numerical Data    | [Slides](/slides/2017-10-25-Inference_for_Numerical_Data.html), [Video](https://youtu.be/Xszyo_jgtNI)
+                           | Inference for Categorical Data  | [Slides](/slides/2017-10-25-Inference_for_Categorical_Data.html)
 Wednesday, Nov 1, 8:00 pm  | Linear Regression               | 
 Wednesday, Nov 8, 8:00 pm  | Linear Regression cont.         | 
 Wednesday, Nov 15, 8:00 pm | Multiple & Logistic Regression  | 
