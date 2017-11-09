@@ -9,7 +9,7 @@ if(!require(blogdown)) {
 # blogdown::install_theme(theme = 'vjeantet/hugo-theme-docdock')
 
 # Serve site
-blogdown::serve_site()
+# blogdown::serve_site()
 
 # Build site for Github pages
 build_mysite <- function(...) {
