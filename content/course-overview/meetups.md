@@ -30,7 +30,7 @@ Wednesday, Oct 25, 8:00pm  | Inference for Numerical Data    | [Slides](/slides/
                            | Inference for Categorical Data  | [Slides](/slides/2017-10-25-Inference_for_Categorical_Data.html)
 Wednesday, Nov 1, 8:00 pm  | Linear Regression               | [Slides](/slides/2017-11-01-Linear_Regression.html), [Video](https://youtu.be/jO2QBL5eBVE)
 Wednesday, Nov 8, 8:00 pm  | Linear Regression cont.         | [Slides](/slides/2017-11-08-Linear_Regression2.html), [Video](https://youtu.be/6mRKI8jmGSs)
-Wednesday, Nov 15, 8:00 pm | Multiple & Logistic Regression  | 
+Wednesday, Nov 15, 8:00 pm | Multiple & Logistic Regression  | [Slides](/slides/2017-11-15-Multiple_Regression.html), [Video](https://youtu.be/_SUOHoiTgfc)
 November 22                | NO MEETUP                       |
 Wednesday, Nov 29, 8:00 pm | Intro to Bayesian Analysis      | 
 Wednesday, Dec 6, 8:00 pm  | TBD                             | 
